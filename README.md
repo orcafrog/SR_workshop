@@ -31,7 +31,7 @@
 * Torchinfo: 1.8.0
 * Torchviz: 0.0.2
 ---
-## 백테스트 코드
+## 💻 백테스트 코드
 ```
 from backtesting import Backtest,Strategy
 from backtesting.lib import crossover
