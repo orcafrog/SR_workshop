@@ -31,11 +31,10 @@
 * Torchviz: 0.0.2
 ---
 ## 🔍 결과
-|![KakaoTalk_20240107_162720940](https://github.com/orcafrog/SR_workshop/assets/76116588/c007a4e3-3f7f-41c6-b5e2-9a3a9eb9dfc9)|![애플 8년](https://github.com/orcafrog/SR_workshop/assets/76116588/22d75585-632c-4c42-866f-7ea1aba7d0da)|그래픽 8년 ![그래픽 8년](https://github.com/orcafrog/SR_workshop/assets/76116588/6abf17a7-b2e9-40ee-9b63-3a270d5f9d42)|
+|![KakaoTalk_20240107_162720940](https://github.com/orcafrog/SR_workshop/assets/76116588/c007a4e3-3f7f-41c6-b5e2-9a3a9eb9dfc9)|![애플 8년](https://github.com/orcafrog/SR_workshop/assets/76116588/22d75585-632c-4c42-866f-7ea1aba7d0da)|![그래픽 8년](https://github.com/orcafrog/SR_workshop/assets/76116588/6abf17a7-b2e9-40ee-9b63-3a270d5f9d42)|
 |------|---|---|
 |GOOG 8년 백테스트 결과|AAPL 8년 백테스트 결과|NVIDA 8년 백테스트 결과|
-|![구글 3년](https://github.com/orcafrog/SR_workshop/assets/76116588/b3180617-26f9-4466-845c-4ee708f0a369)|![애플 3년](https://github.com/orcafrog/SR_workshop/assets/76116588/7900718c-b2f3-4df6-8ac5-8b0c75e768b7)|그래픽 3년 ![그래픽 3년](https://github.com/orcafrog/SR_workshop/assets/76116588/1dbec5ea-b686-44ea-afd2-baff41044a6e)|
-|------|---|---|
+|![구글 3년](https://github.com/orcafrog/SR_workshop/assets/76116588/b3180617-26f9-4466-845c-4ee708f0a369)|![애플 3년](https://github.com/orcafrog/SR_workshop/assets/76116588/7900718c-b2f3-4df6-8ac5-8b0c75e768b7)|![그래픽 3년](https://github.com/orcafrog/SR_workshop/assets/76116588/1dbec5ea-b686-44ea-afd2-baff41044a6e)|
 |GOOG 3년 백테스트 결과|AAPL 3년 백테스트 결과|NVIDA 3년 백테스트 결과|
 
 
