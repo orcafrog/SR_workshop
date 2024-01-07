@@ -31,4 +31,5 @@
 * Torchviz: 0.0.2
 ---
 ## 🔍 결과
++ ![KakaoTalk_20240107_162720940](https://github.com/orcafrog/SR_workshop/assets/76116588/c007a4e3-3f7f-41c6-b5e2-9a3a9eb9dfc9)
 
