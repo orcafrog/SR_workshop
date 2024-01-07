@@ -5,6 +5,8 @@
 + 개요
 + 개발기간
 + 실행환경
++ 모델 결과
++ 백테스트 코드
 + 결과
 ---
 ## 📚 개요
@@ -29,6 +31,36 @@
 * Torch: 2.1.0+cu118
 * Torchinfo: 1.8.0
 * Torchviz: 0.0.2
+---
+## 모델 결과
+||
+|모델 결과 이미지|
+---
+## 백테스트 코드
+```
+from backtesting import Backtest,Strategy
+from backtesting.lib import crossover
+
+class backtesting(Strategy):
+  def init(self):
+    super().init()
+    Open_price=self.data.Open
+    Close_price=self.data.Close
+  def next(self):
+    for i in range(len(self.data)):
+      try:
+        if self.data["0_d"][i]>=0.0 and self.data["Rate"][i]==2.0:
+            self.buy()
+        elif self.data["Rate"][i]==0.0 or self.data["0_d"][i]<0:
+            self.sell()
+      except:
+        pass
+```
+```
+bt=Backtest(final_df_real["2020-01-01":],backtesting,commission=.0002,cash=100000,exclusive_orders=True)
+stats=bt.run()
+print(stats)
+```
 ---
 ## 🔍 결과
 |![KakaoTalk_20240107_162720940](https://github.com/orcafrog/SR_workshop/assets/76116588/c007a4e3-3f7f-41c6-b5e2-9a3a9eb9dfc9)|![애플 8년](https://github.com/orcafrog/SR_workshop/assets/76116588/22d75585-632c-4c42-866f-7ea1aba7d0da)|![그래픽 8년](https://github.com/orcafrog/SR_workshop/assets/76116588/6abf17a7-b2e9-40ee-9b63-3a270d5f9d42)|
